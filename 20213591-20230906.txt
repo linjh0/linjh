@@ -1,0 +1,200 @@
+使用git bash命令编辑文件
+pwd：查看当前的路径
+cd：切换目标
+cd ..：返回上一级的目录
+ls：查看当前目录的内容
+ll：查看更为详细的当前目录内容
+ls-al：查看当前目录包括隐藏文件和以.开头的文件
+mkdir：创建目录
+touch：在当前的目录创建文件
+cat：查看文件内容
+less：查看部分文件内容，按空格一页一页显示，回车一行一行显示，b返回上一页
+rm：删除文件 
+rm-rf：循环递进删除文件夹
+rmdir：删除空文件夹，不常用
+clear：清屏
+mv：移动文件或者对文件重命名
+cp：复制文件
+echo 内容>>文件名：把内容追加到该文件中
+echo 内容>文件名：把内容覆盖到该文件中
+vim：打开，修改，保存文件  编辑模式下按esc键回到命令模式；在命令模式中按i键进入编辑模式
+
+  感觉在熟练掌握了git bash的命令能较为快捷的对文件进行修改，删除，创建，保存，相比电脑桌面更能精确找寻文件，并对文件进行编辑，不过使用git bash时工作目录只能是整个目录，不能单独查询某个有权限的目录。
+
+    1  ls
+    2  pw
+    3  pwd
+    4  cd -/
+    5  cd /
+    6  mkdir linjh
+    7  ls
+    8  pwd
+    9  cd
+   10  cd linjh/
+   11  pwd
+   12  cd linjh
+   13  cd linjh/
+   14  cd
+   15  pwd
+   16  cd linjh/
+   17  ls
+   18  rm -r
+   19  rmdir
+   20  rm /linjh
+   21  rm -r linjh
+   22  rm -r
+   23  history 
+   24  pwd
+   25  pw
+   26  cp -r tupian/*linjh
+   27  cp tupian/* -r
+   28  cp -r tupian/*linjh
+   29  pwd
+   30  cp /D/tupian  
+   31  cp /D/tupian/* /D/Git/linjh
+   32  ls /linjh
+   33  cd /D/Git/linjh
+   34  PWd
+   35  pwd
+   36  cd /linjh
+   37  pwd
+   38  cd ..
+   39  pwd
+   40  cd /linjh
+   41  pwd
+   42  cd linjh
+   43  cp /tupian/* /linjh
+   44  cp /tupian/* /Git/linjh
+   45  rm 1.jpg
+   46  ls /linjh
+   47  ls
+   48  rm -r /tupian
+   49  pwd
+   50  rm -r /D/tupian
+   51  cd /D
+   52  rm -r /tupian
+   53  cd /linjh
+   54  rmdir /tupian
+   55  ls
+   56  ls /tupian
+   57  ls /tmp/
+   58  ls /tmp/
+   59  ls
+   60  rm /tupian -r
+   61  rm -r /tupian
+   62  rmdir /tupian -r
+   63  rmdir /tupian
+   64  history 
+   65  ls
+   66  ls
+   67  cd ..
+   68  cd /tupian
+   69  cd tupian/
+   70  cd /linjh
+   71  pwd
+   72  cd /
+   73  rmdir /tupian
+   74  rmdir tupian/
+   75  cd /linjh
+   76  rmdir tupian/
+   77  history 
+   78  cd ..
+   79  rmdir tupian/
+   80  pwd
+   81  cd /linjh
+   82  rmdir tupian/
+   83  cd ..
+   84  cd ..
+   85  rm tupian/
+   86  rm tupian/ -r
+   87  ls
+   88  q
+   89  cd /linjh
+   90  q
+   91  exit
+   92  history 
+   93  touch tupian/
+   94  cd /linjh
+   95  touch tupian/
+   96  rm tupian/
+   97  rm tupian/*
+   98  rm /tupian
+   99  rm -help
+  100  rm --help
+  101  rm tupian
+  102  history 
+  103  touch mingling.txt
+  104  history >mingling.txt
+  105  touch mingling.exe
+  106  echo 'mingling'>>mingling.txt
+  107  echo 1>>mingling.txt
+  108  echo '1'>>mingling.txt
+  109  touch mingling.pdf
+  110  ls -a
+  111  ls -al
+  112  vim rm mingling.txt
+  113  rm linjh
+  114  rm linjh -r
+  115  ls
+  116  cd linjh/
+  117  cd /linjh
+  118  cd linjh
+  119  history 
+  120  cd /linjh
+  121  ls
+  122  mkdir linjh/
+  123  cd /linjjh
+  124  cd /linjh
+  125  history 
+  126  vim
+  127  ls
+  128  cd linjh/
+  129  clear
+  130  cat
+  131  cat mingling.txt
+  132  touch 20213591.doc
+  133  history >20213591.doc
+  134  cat 20213591.doc
+  135  ll 20213591.doc
+  136  less 20213591.doc
+  137  mkdir lin/
+  138  mv 20213591.doc lin
+  139  mv 20213591.doc 20213591.docx
+  140  mv 20213591.doc ljh
+  141  mv 20213591.doc ljh.doc
+  142  mv 20213591.doc linjh
+  143  cd /lin
+  144  cd lin/
+  145  mv 20213591.doc linjh
+  146  cd linjh/
+  147  ls
+  148  cd ..
+  149  mv linjh 20213591.doc
+  150  cd lin/
+  151  vim linjh
+  152  cd ..
+  153  rm lin/-r
+  154  rm /lin -r
+  155  rm lin
+  156  rm lin -r
+  157  exit
+  158  touch 20213591.txt
+  159  cd /linjh
+  160  touch 20213591.txt
+  161  mkdir lin
+  162  mv 20213591.txt lin
+  163  rm lin
+  164  rm lin-r
+  165  rm lin -r
+  166  history 
+  167  cd ..
+  168  cp tupian/* linjh -r
+  169  cd linjh/
+  170  rm linjh
+  171  rm linjh -r
+  172  mv 1.jpg 2.jpg
+  173  rm 2.jpg
+  174  ls
+  175  touch 20213591-20230906
+  176  mv 20213591-20230906 20213591-20230906.txt
+  177  history >20213591-20230906.txt
