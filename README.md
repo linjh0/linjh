@@ -1,7 +1,7 @@
 # 21计科一班 20213591 林家豪
 考试作业##[ks.html](https://linjh0.github.io/linjh/ks.html) 
 
-第一次作业##[20213591-20231012.html](https://linjh0.github.io/linjh/20213591-20231012.html) 
+第一次作业##[20213591-20231012.txt](https://linjh0.github.io/linjh/20213591-20231012.txt) 
 
 第二次作业##[20213591-20230906.html](https://linjh0.github.io/linjh/20213591-20230906.html) 
 
