@@ -3,7 +3,7 @@
 
 ##[20213591-20231012.html](https://linjh0.github.io/linjh/20213591-20231012.html) 
 
-##[20213591-20230906.txt](https://linjh0.github.io/linjh/20213591-20230906.txt) 
+##[20213591-20230906.txt](https://linjh0.github.io/linjh/20213591-20230906.html) 
 
 ##[20213591-20230915.html](https://linjh0.github.io/linjh/20213591-20230915.html) 
 
